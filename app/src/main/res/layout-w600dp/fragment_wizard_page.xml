@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        tools:text="Lorem Ipsum"/>
+
+    <!-- Add any additional UI components as needed -->
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="16dp"
+        tools:text="Consectetur qui ad aliquip do id sit voluptate mollit. Sunt id aliquip adipisicing ullamco id nostrud exercitation. Enim tempor reprehenderit do sint sint quis nulla commodo. Amet aliqua aute aliqua adipisicing tempor ex do consequat exercitation cillum est sit cupidatat."
+        android:singleLine="false"
+        android:maxWidth="700dp"
+        android:maxLines="10" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/doneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_done"
+        android:textColor="@color/buttonTextColor"
+        android:visibility="gone"/>
+
+</LinearLayout>

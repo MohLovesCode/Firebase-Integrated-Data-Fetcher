@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841791509758",
+    "project_id": "demoapp-d4472",
+    "storage_bucket": "demoapp-d4472.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841791509758:android:30c524224179bcc09441af",
+        "android_client_info": {
+          "package_name": "com.mohcoder.demoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_bd_R8X4-QJpbKNq_nv7NEYm4tzB0WkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
